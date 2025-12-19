@@ -1,4 +1,6 @@
-(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))n(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const r of t.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&n(r)}).observe(document,{childList:!0,subtree:!0});function a(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function n(e){if(e.ep)return;e.ep=!0;const t=a(e);fetch(e.href,t)}})();document.querySelector("#app").innerHTML=`
+import './style.css'
+
+document.querySelector('#app').innerHTML = `
   <div>
     <div id="header" class="py-[25%] opacity-0 transition-opacity duration-1000 w-full"> 
       <h1 class="text-6xl text-center">Shreyaz Ray</h1>
@@ -114,4 +116,45 @@
       </div>
     </div>
   </div>
-`;const l=document.getElementById("header"),c=document.getElementById("about"),d=document.getElementById("ex"),p=document.getElementById("ex-1"),m=document.getElementById("ex-2"),u=document.getElementById("prj"),g=document.getElementById("prj-1"),y=document.getElementById("prj-2"),h={root:null,rootMargin:"0px",threshold:.5},s=new IntersectionObserver((o,i)=>{o.forEach(a=>{a.isIntersecting?a.target.classList.add("opacity-100"):a.target.classList.remove("opacity-100")})},h);s.observe(l);s.observe(c);s.observe(d);s.observe(p);s.observe(m);s.observe(u);s.observe(g);s.observe(y);
+`
+// Select the element to observe
+const head = document.getElementById("header");
+const about = document.getElementById("about");
+const ex = document.getElementById("ex");
+const ex1 = document.getElementById("ex-1");
+const ex2 = document.getElementById("ex-2");
+const prj = document.getElementById("prj");
+const prj1 = document.getElementById("prj-1");
+const prj2 = document.getElementById("prj-2");
+
+// Define the observer options (e.g., a threshold of 0.5 means 50% of the element
+// must be visible to trigger the callback)
+const options = {
+  root: null, // observe against the viewport
+  rootMargin: '0px',
+  threshold: 0.5
+};
+
+// Create the observer instance
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Add the visible class when in view
+      entry.target.classList.add("opacity-100");
+    }
+    // Optional: Remove the class when scrolling out of view to re-trigger
+    else {
+       entry.target.classList.remove("opacity-100");
+     }
+  });
+}, options);
+
+// Start observing the target element
+observer.observe(head);
+observer.observe(about);
+observer.observe(ex);
+observer.observe(ex1);
+observer.observe(ex2);
+observer.observe(prj);
+observer.observe(prj1);
+observer.observe(prj2);
