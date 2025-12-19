@@ -5,7 +5,7 @@ document.querySelector('#app').innerHTML = `
     <div id="header" class="py-[25%] opacity-0 transition-opacity duration-1000 w-full"> 
       <h1 class="text-6xl text-center">Shreyaz Ray</h1>
       <p class="text-xl p-4 text-center">Aspiring ML Engineer</p>
-      <a href="src/assets/resume.pdf"><button class="border hover:bg-gray-400 py-1 px-4 rounded mx-auto block">Resume</button></a>
+      <a href="resume.pdf"><button class="border hover:bg-gray-400 py-1 px-4 rounded mx-auto block">Resume</button></a>
 </div>
       
     </div>
@@ -13,13 +13,13 @@ document.querySelector('#app').innerHTML = `
       <h1 class="text-5xl text-center">About Me</h1>
       <div class="flex pl-60 py-15">
       <div>
-        <img class="h-52 w-52 object-cover flex-none" src="src/assets/image.png"></img>
+        <img class="h-52 w-52 object-cover flex-none" src="image.png"></img>
         <ul>
         <li><a href="mailto:shr.dpsb@gmail.com" class="hover:text-indigo-600 font-bold">SHR.DPSB@GMAIL.COM</a></li>
         <li>
           <div class="flex">
-            <a href="https://www.linkedin.com/in/shreyaz-ray-66b32a2a4/"><img src="src/assets/linkedin.webp" class="h-6 w-6 mr-1"></img></a>
-            <a href="https://github.com/clayaaz"><img src="src/assets/github.webp" class="h-6 w-6 mx-1"></img></a>
+            <a href="https://www.linkedin.com/in/shreyaz-ray-66b32a2a4/"><img src="linkedin.webp" class="h-6 w-6 mr-1"></img></a>
+            <a href="https://github.com/clayaaz"><img src="github.webp" class="h-6 w-6 mx-1"></img></a>
           </div>
         </li>
       </ul>
@@ -80,7 +80,7 @@ document.querySelector('#app').innerHTML = `
           <div class="block rounded-md border border-gray-300 p-4 shadow-sm sm:p-6 w-100 h-45">
             <div class="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
             <div class="sm:order-last sm:shrink-0">
-              <img alt="" src="src/assets/vallyride.webp" class="size-16 rounded-full object-cover sm:size-[72px]">
+              <img alt="" src="vallyride.webp" class="size-16 rounded-full object-cover sm:size-[72px]">
             </div>
               <div class="mt-4 sm:mt-0">
                 <h3 class="text-lg font-medium text-pretty text-gray-900">
@@ -98,7 +98,7 @@ document.querySelector('#app').innerHTML = `
           <dev class="block rounded-md border border-gray-300 p-4 shadow-sm sm:p-6 w-100 h-45">
             <div class="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
             <div class="sm:order-last sm:shrink-0">
-              <img alt="" src="src/assets/nepal-flag.jpg" class="size-16 rounded-full object-cover sm:size-[72px]">
+              <img alt="nepal-flag.jpg  " src="" class="size-16 rounded-full object-cover sm:size-[72px]">
             </div>
               <div class="mt-4 sm:mt-0">
                 <h3 class="text-lg font-medium text-pretty text-gray-900">
