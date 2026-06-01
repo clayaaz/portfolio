@@ -34,7 +34,7 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div class="flex-1 px-20">
           <p class="text-xl text-gray-700 dark:text-gray-300">Recent A-Level graduate and aspiring Full Stack Developer with experience in game development, Python automation, and multiple hackathon awards. Passionate about building creative solutions and currently expanding my skills in machine learning.</p>
-          <p class="pt-10 text-xl text-gray-700 dark:text-gray-300">After completing my CBSE 10th Grade from Delhi Public School, Biratnagar and my A-Levels from Trinity International SS & College, Kathmandu. I am looking for universities to continue my education while simultaneously looking for job or internship opportunities!</p>
+          <p class="pt-10 text-xl text-gray-700 dark:text-gray-300">After completing my CBSE 10th Grade from Delhi Public School, Biratnagar and my A-Levels from Trinity International SS & College, Kathmandu. Alawys looking forward to new opportunities and to start new jouneys </p>
         </div>
       </div>
     </div>
