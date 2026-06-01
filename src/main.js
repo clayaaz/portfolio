@@ -42,43 +42,44 @@ document.querySelector("#app").innerHTML = `
       <h1 id="ex" class="text-5xl pt-50 pb-10 opacity-0 transition-opacity duration-1000 text-gray-900 dark:text-gray-100">Experiences</h1>
 
       <ol class="relative space-y-8 before:absolute before:-ml-px before:h-full before:w-0.5 before:rounded-full before:bg-gray-200 dark:before:bg-gray-700">
+      <li id="ex-2" class="relative -ms-1.5 flex items-start gap-4 opacity-0 transition-opacity duration-1000">
+        <span class="size-3 shrink-0 rounded-full bg-blue-600"></span>
+
+        <div class="mt-2 w-[67%]">
+          <div class="flex justify-between">
+            <h3 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Angler Studios</h3>
+
+            <time class="text-lg/none font-medium text-gray-700 dark:text-gray-300">Aug 2025 - Feb 2026</time>
+          </div>
+
+          <p class="mt-1.5 text-xl text-gray-700 dark:text-gray-300">
+            Worked on a Social Hub game in the theme of our country on Roblox
+          </p>
+        </div>
+      </li>
         <li id="ex-1" class="relative -ms-1.5 flex items-start gap-4 opacity-0 transition-opacity duration-1000">
           <span class="size-3 shrink-0 rounded-full bg-blue-600"></span>
 
           <div class="mt-2 w-[67%]">
             <div class="flex justify-between">
-              <h3 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Nobel Navigators</h3>
+              <h3 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Hyper Media Production</h3>
 
-              <time class="text-lg/none font-medium text-gray-700 dark:text-gray-300">Nov 2025 - Present</time>
+              <time class="text-lg/none font-medium text-gray-700 dark:text-gray-300">April 2026 - Present</time>
             </div>
 
             <p class="mt-1.5 text-xl text-gray-700 dark:text-gray-300">
-              Intern Enrolled in Machine Learning Course Web-Design Leadership Pitch and Presentation
+              Intern learning film making skills including how to operate a camera, editing etc.
             </p>
           </div>
         </li>
 
-        <li id="ex-2" class="relative -ms-1.5 flex items-start gap-4 opacity-0 transition-opacity duration-1000">
-          <span class="size-3 shrink-0 rounded-full bg-blue-600"></span>
-
-          <div class="mt-2 w-[67%]">
-            <div class="flex justify-between">
-              <h3 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Angler Studios</h3>
-
-              <time class="text-lg/none font-medium text-gray-700 dark:text-gray-300">Aug 2025 - Present</time>
-            </div>
-
-            <p class="mt-1.5 text-xl text-gray-700 dark:text-gray-300">
-              Worked on a Social Hub game in the theme of our country on Roblox
-            </p>
-          </div>
-        </li>
       </ol>
     </div>
 
     <div class="pt-80 pb-10 px-25">
       <h1 id="prj" class="text-5xl text-center opacity-0 transition-opacity duration-1000 text-gray-900 dark:text-gray-100">Projects</h1>
-      <div class="flex pt-10">
+      <div class="flex-colunm pt-10 ">
+      <div class="flex">
         <div id="prj-1" class="px-5 opacity-0 transition-opacity duration-1000">
           <div class="block rounded-md border border-gray-300 dark:border-gray-600 p-4 shadow-sm sm:p-6 w-100 h-45 bg-white dark:bg-gray-800">
             <div class="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
@@ -115,6 +116,64 @@ document.querySelector("#app").innerHTML = `
             <a class="inline-block rounded-sm border border-gray-600 dark:border-gray-500 px-1 py-1 text-xm font-medium text-gray-900 dark:text-gray-100 bg-transparent hover:text-indigo-600 dark:hover:text-indigo-400" href="https://github.com/clayaaz/ARCS/tree/main">Learn More</a>
           </div>
         </div>
+        <div id="prj-3" class="px-5 opacity-0 transition-opacity duration-1000">
+          <div class="block rounded-md border border-gray-300 dark:border-gray-600 p-4 shadow-sm sm:p-6 w-100 h-45 bg-white dark:bg-gray-800">
+            <div class="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
+              <div class="sm:order-last sm:shrink-0">
+                <img alt="Heram Anime" src="anime.png" class="size-16 rounded-full object-cover sm:size-[72px]">
+              </div>
+              <div class="mt-4 sm:mt-0">
+                <h3 class="text-lg font-medium text-pretty text-gray-900 dark:text-gray-100">
+                  Heram Anime
+                </h3>
+                <p class="my-4 line-clamp-2 text-sm text-pretty text-gray-700 dark:text-gray-300">
+                  A streaming service to was sub anime using the VIDsrc API.
+                </p>
+              </div>
+            </div>
+            <a class="inline-block rounded-sm border border-gray-600 dark:border-gray-500 px-1 py-1 text-xm font-medium text-gray-900 dark:text-gray-100 bg-transparent hover:text-indigo-600 dark:hover:text-indigo-400" href="https://anime.shreyazray.com.np">Visit</a>
+            <a class="inline-block rounded-sm border border-gray-600 dark:border-gray-500 px-1 py-1 text-xm font-medium text-gray-900 dark:text-gray-100 bg-transparent hover:text-indigo-600 dark:hover:text-indigo-400" href="https://github.com/clayaaz/heram-anime">Learn More</a>
+          </div>
+        </div>
+        <div id="prj-4" class="px-5 opacity-0 transition-opacity duration-1000">
+          <div class="block rounded-md border border-gray-300 dark:border-gray-600 p-4 shadow-sm sm:p-6 w-100 h-45 bg-white dark:bg-gray-800">
+            <div class="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
+              <div class="sm:order-last sm:shrink-0">
+                <img alt="Manga Ikuzo" src="manga.png" class="size-16 rounded-full object-cover sm:size-[72px]">
+              </div>
+              <div class="mt-4 sm:mt-0">
+                <h3 class="text-lg font-medium text-pretty text-gray-900 dark:text-gray-100">
+                  Manga Ikuzo
+                </h3>
+                <p class="my-4 line-clamp-2 text-sm text-pretty text-gray-700 dark:text-gray-300">
+                  A Manga reading website made using web scraping techneque.
+                </p>
+              </div>
+            </div>
+            <a class="inline-block rounded-sm border border-gray-600 dark:border-gray-500 px-1 py-1 text-xm font-medium text-gray-900 dark:text-gray-100 bg-transparent hover:text-indigo-600 dark:hover:text-indigo-400" href="https://github.com/clayaaz/mangascrape">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex pt-10">
+        <div id="prj-5" class="px-5 opacity-0 transition-opacity duration-1000">
+          <div class="block rounded-md border border-gray-300 dark:border-gray-600 p-4 shadow-sm sm:p-6 w-100 h-45 bg-white dark:bg-gray-800">
+            <div class="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
+              <div class="sm:order-last sm:shrink-0">
+                <img alt="HMP" src="HMP.png" class="size-16 rounded-full object-cover sm:size-[72px]">
+              </div>
+              <div class="mt-4 sm:mt-0">
+                <h3 class="text-lg font-medium text-pretty text-gray-900 dark:text-gray-100">
+                  Hyper Media Production
+                </h3>
+                <p class="my-4 line-clamp-2 text-sm text-pretty text-gray-700 dark:text-gray-300">
+                  The Portfolio website of a media production company.
+                </p>
+              </div>
+            </div>
+            <a class="inline-block rounded-sm border border-gray-600 dark:border-gray-500 px-1 py-1 text-xm font-medium text-gray-900 dark:text-gray-100 bg-transparent hover:text-indigo-600 dark:hover:text-indigo-400" href="https://www.hypermediaproductions.com/">Visit</a>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   </div>
@@ -129,6 +188,9 @@ const ex2 = document.getElementById("ex-2");
 const prj = document.getElementById("prj");
 const prj1 = document.getElementById("prj-1");
 const prj2 = document.getElementById("prj-2");
+const prj3 = document.getElementById("prj-3")
+const prj4 = document.getElementById("prj-4")
+const prj5 = document.getElementById("prj-5")
 
 // Define the observer options
 const options = {
@@ -157,6 +219,9 @@ observer.observe(ex2);
 observer.observe(prj);
 observer.observe(prj1);
 observer.observe(prj2);
+observer.observe(prj3)
+observer.observe(prj4)
+observer.observe(prj5)
 
 // Dark mode toggle
 const darkModeToggle = document.getElementById("dark-mode-toggle");
